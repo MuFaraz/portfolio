@@ -19,19 +19,11 @@ function Banner() {
           }}
         >
           <Row around="xs" middle="xs" center="xs">
-            {!isMobile ? (
               <Fragment>
-                {" "}
                 <BannerContent bannerSection={bannerSection} />
-                <BannerImage bannerSection={bannerSection} />{" "}
-              </Fragment>
-            ) : (
-              <Fragment>
-                {" "}
                 <BannerImage bannerSection={bannerSection} />
-                <BannerContent bannerSection={bannerSection} />{" "}
               </Fragment>
-            )}
+            
           </Row>
         </VisibilitySensor>
       </div>

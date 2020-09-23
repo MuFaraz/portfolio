@@ -10,15 +10,37 @@ import { ScrollContext } from "../../Context/scroll";
 import { isMobile } from "react-device-detect";
 import Heading from "../common/Heading";
 function Skills() {
+
+
   const { scrollChange } = useContext(ScrollContext);
   const skillsSet = skillsSection.skillsSet.map((skill, i) => {
-    return (
-      <Col xs={2} key={i}>
-        {" "}
-        <i className={`${skill.fontAwesomeClassname} skill_img`}></i>{" "}
-      </Col>
-    );
+    if (skill.fontAwesomeClassname == "fab fa-cuttlefish") {
+
+      return (
+        <>
+          <Col xs={2} key={i}>
+
+            <i className={`${skill.fontAwesomeClassname} skill_img`}><span style={{ fontSize: "32px" }}>++</span></i>
+          </Col>
+          <Col xs={2} key={i}>
+
+            <i className={`${skill.fontAwesomeClassname} skill_img`}>#</i>
+          </Col>
+        </>
+      );
+    }
+    else {
+      return (
+        <Col xs={2} key={i}>
+
+          <i className={`${skill.fontAwesomeClassname} skill_img`}></i>
+        </Col>
+
+      );
+    }
+
   });
+
   const skillsTagLines = skillsSection.skillsTagLines.map((tagline, i) => {
     return (
       <h3 className="skills_section_skill" key={i}>

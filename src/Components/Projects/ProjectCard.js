@@ -14,10 +14,19 @@ function ProjectCard({ project }) {
     >
       <div className="project-card">
         <div className="content-wrapper">
-          <img src={projectImg} alt="" className="project-card-img" />
           <div className="card-content">
+            <img src={project.image} alt="" className="project-card-img" />
             <div className="project-name">{project.projectName}</div>
             <div className="card-bio">{project.projectBio}</div>
+            <div className="card-bio" >  Url:  <a style={{color:"#94a1b2",textDecoration:"underline"}}
+              className="btn btn-1"
+              href={project.projectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+             {project.projectUrl}
+            </a></div>
+
           </div>
         </div>
         <div className="languages">

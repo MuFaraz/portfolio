@@ -106,6 +106,15 @@ section {
 .logo--shadow {
   text-shadow: 6px 6px #7f5af0;
 }
+.project-card-img{
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 0px !important;
+    border-radius: 2px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
 
 /*=====================
     3. TechFolio Banner Css
@@ -853,6 +862,14 @@ footer .content .techfolio_copyright {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -1px;
+  }
+  .linkcolor{
+    color:white !important;
+    text-decoration: none;
+  }
+  .linkcolor:hover{
+    text-decoration: underline !important;
+    color: red !important;
   }
   /*-----------------------------------  */
   .banner-btns .btn-3:hover {

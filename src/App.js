@@ -28,13 +28,13 @@ function App() {
             <Banner />
             <About />
             <Skills />
-            <Github />
+            {/* <Github /> */}
             <Projects />
             <Experience />
             <Contact />
           </Col>
         </Row>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </ScrollProvider>
   );

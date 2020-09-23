@@ -7,13 +7,11 @@ function BannerContent({ bannerSection }) {
   return (
     <Col lg={5} xs={12}>
       <div className="banner-content">
-        <h1>
-          {" "}
+        <h2>
           <Fade bottom big cascade>
             {bannerSection.bannerHeading}
           </Fade>
-        </h1>
-
+        </h2>
         <Fade bottom cascade>
           <p>{bannerSection.bannerTagLine}</p>
         </Fade>
