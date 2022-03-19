@@ -10,6 +10,10 @@ import covid from './assets/imgs/covid.PNG';
 import carJava from './assets/imgs/carRentaljava.PNG';
 import schoolJava from './assets/imgs/Schooljava.PNG';
 
+import shaykis from './assets/imgs/shaykis.PNG';
+import savackers from './assets/imgs/savacker.PNG';
+
+
 import schoolCsharp from './assets/imgs/schoottimetableC.PNG';
 import foodcplus from './assets/imgs/foodorderCplus.PNG';
 import student from './assets/imgs/StudentperAI.PNG';
@@ -76,7 +80,7 @@ const bannerSection = {
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
   bannerAvatar: "avatar.jpg",
   resumeLink:
-    "https://drive.google.com/file/d/1snSGVboK6lKngUcTbKR1Kk9EnacrTSVH/view?usp=sharing",
+    "https://drive.google.com/file/d/1nDOBBSlQUA6wmbovzUolh323zkgYYbJi/view?usp=sharing",
 };
 
 /*=====================
@@ -172,7 +176,31 @@ const openSourceSection = {
 
 const projectsSection = {
   projects: [
-
+    
+    {
+      projectName: "Website in laravel",
+      projectBio:
+        "Custom Project created in laravel ",
+      projectUrl: "https://www.savackers.com/",
+      stackList: ["HTML", "CSS", "JS", "PHP","LARAVEL"],
+      image: savackers,
+    },
+    {
+      projectName: "Issue fixes in wordpress",
+      projectBio:
+        "Issues fixed ",
+      projectUrl: "#",
+      stackList: ["HTML", "CSS", "JS", "PHP","WORDPRESS"],
+      image: '',
+    },
+    {
+      projectName: "Ecoomerce Website in laravel",
+      projectBio:
+        "This Project has been based on ecommerce that created custom in laravel when work remotely in rolling cherry company",
+      projectUrl: "https://www.shaykis.co.uk/",
+      stackList: ["HTML", "CSS", "JS", "PHP","LARAVEL","STRIPE","PAYMENT"],
+      image: shaykis,
+    },
     {
       projectName: "Affordable Legal Help",
       projectBio:
@@ -293,6 +321,35 @@ const projectsSection = {
 const experienceSection = {
   experiences: [
     {
+      experienceTitle: "Software Developer",
+      experienceDesc:
+        "A Full time Job work in different technology like wordpress customization, Laravel, Vuejs ,python and React ",
+      experienceDuration: "April-2021 to Current",
+      experienceTags: ["PHP", "Javascript","Laravel","Wordpress","Woocommerce","NUXT","Vue"],
+    },
+    
+    // {
+    //   experienceTitle: "Web Developer",
+    //   experienceDesc:
+    //     "Working remotely for company rolling cherry to handle projects in wordpress, laravel and php",
+    //   experienceDuration: "April-2021 to Oct-2021",
+    //   experienceTags: ["PHP","Laravel","Wordpress","Woocommerce","Vue"],
+    // },
+    {
+      experienceTitle: "Backend Developer",
+      experienceDesc:
+        "Handle Backend Development Either Develop API for Mobile APP or Website in MS global inc",
+      experienceDuration: "Dec-2020 to March-2021",
+      experienceTags: ["PHP", "3 Month", "CSS", "Javascript","Laravel"],
+    },
+    {
+      experienceTitle: "Web Developer",
+      experienceDesc:
+        "Design and develop some project in PHP for Increase Rev.",
+      experienceDuration: "April-2020 to Sep-2020",
+      experienceTags: ["PHP", "7 Month", "CSS", "Javascript"],
+    },
+    {
       experienceTitle: "React Boot Camper",
       experienceDesc:
         "Successfully learned to React from 0%. Developed and Implement different React projects in the group. Improved communication skills while interacting with people of a different caliber.",
@@ -308,13 +365,10 @@ const experienceSection = {
       experienceDuration: "August-2020",
       experienceTags: ["Interns.Pk", "1 month", "Remote"],
     },
-    {
-      experienceTitle: "Web Developer",
-      experienceDesc:
-        "Design and develop some project in PHP for Increase Rev.",
-      experienceDuration: "Current",
-      experienceTags: ["PHP", "March-2020 to Current", "CSS", "Javascript"],
-    },
+    
+    
+    
+    
   ],
 };
 
