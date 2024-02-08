@@ -80,7 +80,7 @@ const bannerSection = {
   //Note : if you want to use default illustration instead of adding your avatar add defaultAvatar.svg
   bannerAvatar: "avatar.jpg",
   resumeLink:
-    "https://drive.google.com/file/d/1nDOBBSlQUA6wmbovzUolh323zkgYYbJi/view?usp=sharing",
+    "https://drive.google.com/file/d/1Uw-eHeLGjx3aUCspsrrdcJFqIBmw9f1G/view",
 };
 
 /*=====================
@@ -325,7 +325,7 @@ const experienceSection = {
       experienceDesc:
         "A Full time Job work in different technology like wordpress customization, Laravel, Vuejs ,python and React ",
       experienceDuration: "April-2021 to Current",
-      experienceTags: ["PHP", "Javascript","Laravel","Wordpress","Woocommerce","NUXT","Vue"],
+      experienceTags: ["PHP", "Javascript","Laravel","Wordpress","Woocommerce","NUXTjs","Vuejs", "Nextjs"],
     },
     
     // {

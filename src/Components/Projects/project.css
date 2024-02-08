@@ -107,6 +107,9 @@
   margin: auto;
   text-align: center;
   text-transform: lowercase;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 .languages-profile .languages-name span {
   color: #fffffe;
