@@ -20,7 +20,7 @@ function Contact() {
             draggable="false"
             className="emoji"
             alt="💠"
-            src="https://twemoji.maxcdn.com/v/13.0.0/72x72/1f4d2.png"
+            src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/26a1.png"
           />
           {contact}
         </h2>

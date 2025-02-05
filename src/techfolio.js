@@ -13,6 +13,13 @@ import schoolJava from './assets/imgs/Schooljava.PNG';
 import shaykis from './assets/imgs/shaykis.PNG';
 import savackers from './assets/imgs/savacker.PNG';
 
+import bitereel from './assets/imgs/bitereel.PNG';
+import tomy from './assets/imgs/tomy.PNG';
+import hydraway from './assets/imgs/hydraway.PNG';
+import khoja from './assets/imgs/khoja.PNG';
+import nutriwest from './assets/imgs/nutriwest.PNG';
+import plugin from './assets/imgs/plugin.webp';
+
 
 import schoolCsharp from './assets/imgs/schoottimetableC.PNG';
 import foodcplus from './assets/imgs/foodorderCplus.PNG';
@@ -71,9 +78,9 @@ const socialNetworks = {
 
 const bannerSection = {
   username: "Muhammad Faraz",
-  bannerHeading: "Full Stack Developer",
+  bannerHeading: "Full Stack Developer | Turning Ideas into Reality with Code",
   bannerTagLine: emoji(
-    "A Programmer Who love coding and always eager to learn a new and make skill sharper whenever  get any chance"
+    "Innovative Full Stack Developer with 4+ years of experience, passionate about coding, exploring new technologies, and crafting scalable, high-performance solutions."
   ),
   //Note:Simply add you avatar image in src/assets/imgs folder 
   //and add the name along with extention e.g xyz.png , abc.svg
@@ -91,12 +98,14 @@ const bannerSection = {
 ==========================*/
 
 const aboutSection = {
-  admin: "mfaraz@ayin_qoph",
-  firstCommand: " sudo run about.exe",
-  secondCommand: " executing about.exe",
+  admin: "muhammadfaraz",
+  firstCommand: "sudo run about.exe",
+  secondCommand: "executing about.exe",
   about:
-    "A Computer Science Student and Full Stack Developer, Passionate about solving problems that will benefit others in the area of IT or in real life. from haven't think about computer science and then picking it as a carrier back in 2017 I have discovered a lot in this system.",
+    "I am a highly skilled Full Stack Developer with 4+ years of experience, specializing in both frontend and backend development. My expertise spans across Laravel, React.js, Next.js, Node.js, Nuxt.js, Vue.js, WordPress, JavaScript, PHP, and MySQL. I have extensive experience in building scalable web applications, optimizing performance, and developing custom WordPress plugins, including WooCommerce customizations. Whether it's API development, server-side logic, or creating dynamic UI/UX experiences, I deliver efficient and high-quality solutions tailored to business needs.",
 };
+
+
 
 /*=====================
     5. Skils Section
@@ -105,14 +114,32 @@ const aboutSection = {
 
 const skillsSection = {
   // Recommended : don't add more than 3 skill taglines.
+  // skillsTagLines: [
+  //   "Excitable towards giving breath to different mockup PSDs and web designs using Html / Css.",
+  //   "Love to Build Scalable web and native application using React with the several stacks, packages, and services.",
+  //   "Also Passionate towards other stuff like WordPress development, python scripting",
+  //   "Build Desktop applications for providing all solutions regarding your business using Java,C#,C++",
+  //   "Applications for all your problems",
+  //   "Love to Build Application in AI",
+  // ],
   skillsTagLines: [
-    "Excitable towards giving breath to different mockup PSDs and web designs using Html / Css.",
-    "Love to Build Scalable web and native application using React with the several stacks, packages, and services.",
-    "Also Passionate towards other stuff like WordPress development, python scripting",
-    "Build Desktop applications for providing all solutions regarding your business using Java,C#,C++",
-    "Applications for all your problems",
-    "Love to Build Application in AI",
+    "Crafting modern, responsive, and pixel-perfect websites using Next.js, React.js, and cutting-edge front-end technologies.",
+    "Developing scalable, secure, and high-performance web applications with Laravel, CodeIgniter, and Node.js.",
+    "Optimizing website speed and performance to ensure lightning-fast load times and seamless user experiences.",
+    "Building dynamic and feature-rich WordPress websites, including custom themes, plugins, and advanced WooCommerce integrations.",
+    "Expert in WordPress plugin development and customization, modifying existing plugins and creating new ones tailored to business needs.",
+    "Providing full-stack development solutions, from front-end UI/UX to robust back-end architecture and database management.",
+    "Creating highly optimized eCommerce solutions with WooCommerce, Shopify, and custom-built platforms.",
+    "Developing secure and efficient APIs using Laravel, Node.js, and Python, enabling seamless integration between services.",
+    "Enhancing business automation with AI-powered applications and Python scripting for data processing and automation.",
+    "Designing and managing scalable MySQL and MongoDB databases for optimal data storage and retrieval.",
+    "Building progressive web apps (PWAs) and serverless applications for modern, fast, and scalable digital solutions.",
+    "Custom web development tailored to unique business requirements, ensuring flexibility and high performance.",
+    "Creating and optimizing custom dashboards, admin panels, and CRM solutions to improve business workflows.",
+    "Developing secure and feature-rich desktop applications using Java, C#, and C++ for various industries.",
+    "Delivering high-quality web solutions with a focus on user experience, scalability, and maintainability."
   ],
+
 
   // Recommended : don't add more than 12 skills.
   // Note : go to https://fontawesome.com/icons?d=gallery > select the icon you want to show 
@@ -135,7 +162,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      fontAwesomeClassname: "fab fa-java",
+      fontAwesomeClassname: "fab fa-vuejs",
     },
     {
       fontAwesomeClassname: "fas fa-database",
@@ -150,7 +177,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-linux",
     },
     {
-      fontAwesomeClassname: "fab fa-cuttlefish",
+      fontAwesomeClassname: "fab fa-node",
     },
   ],
 };
@@ -176,29 +203,68 @@ const openSourceSection = {
 
 const projectsSection = {
   projects: [
-    
     {
-      projectName: "Website in laravel",
+      projectName: "Nutriwest",
+      projectBio:
+        "Nutriwest is an e-commerce platform with both a website and a mobile app, allowing providers and patients to order medicines directly from distributors. Built with Laravel and Blade templates, the platform ensures a smooth and secure ordering experience. The project involved updating the website, developing and optimizing RESTful APIs for the mobile app, managing server-side logic, and implementing authentication to enhance security and performance.",
+      projectUrl: "https://www.nutriwest.com/",
+      stackList: ["HTML", "CSS", "JS", "PHP", "LARAVEL", "BLADE", "MYSQL"],
+      image: nutriwest,
+    },
+    {
+      projectName: "BiteReel – Social Networking Web App",
+      projectBio:
+        "BiteReel is a social networking web app designed to enhance user engagement with features like post creation, likes, comments, sharing, and real-time push notifications. Built with Nuxt.js for a seamless and dynamic front-end experience and powered by Laravel on the back end, the platform ensures high performance, security, and scalability. The project involved developing and integrating RESTful APIs, managing database interactions, implementing authentication, and handling server-side logic to create a smooth and interactive user experience",
+      projectUrl: "https://www.bitereel.com/",
+      stackList: ["HTML", "CSS", "JS", "NUXTJS", "LARAVEL", "FIREBASE", "MYSQL"],
+      image: bitereel,
+    },
+    {
+      projectName: "Hydraway",
+      projectBio:
+        "Hydraway is a leading drainage solution website built on WordPress, featuring extensive customization to meet client-specific requirements. The project involved deep customization of WordPress plugins, creation of custom post types, and modifications to enhance functionality and user experience. Through tailored development, the platform was optimized for performance, scalability, and seamless content management.",
+      projectUrl: "https://hydraway.net/",
+      stackList: ["HTML", "CSS", "JS", "PHP", "WORDPRESS", "PLUGIN CUSTOMIZATION", "MYSQL"],
+      image: hydraway,
+    },
+    {
+      projectName: "Tomy Amuzainc",
+      projectBio:
+        "Tomy Amuzainc is an online platform for purchasing accessories, built using WooCommerce and extensively customized to meet client-specific requirements. The project involved deep WooCommerce customization, developing numerous custom plugins, and optimizing the platform for seamless performance. All modifications were implemented within a tight deadline while ensuring a smooth shopping experience and enhanced functionality.",
+      projectUrl: "https://tomy.amuzainc.com/",
+      stackList: ["HTML", "CSS", "JS", "PHP", "WORDPRESS", "PLUGIN CUSTOMIZATION", "WOOCOMMERCE", "MYSQL"],
+      image: tomy,
+    },
+    {
+      projectName: "Khoja business Directory",
+      projectBio:
+        "KBD is a secure and fully moderated directory platform built exclusively for the Khoja community, developed using the MERN stack (MongoDB, Express.js, React, Node.js). Designed to help community-led businesses connect while ensuring strict data privacy, KBD is GDPR-compliant and requires identity verification for all users. A key feature of the platform is end-to-end encryption, ensuring that all stored data remains secure and protected. With restricted access, KBD does not accept registrations or data requests from outside the Khoja community, maintaining a private and trusted network.",
+      projectUrl: "https://khojabusiness.genetechz.com/",
+      stackList: ["HTML", "CSS", "JS", "REACT", "EXPRESS JS", "NODE JS", "MONGODB"],
+      image: khoja,
+    },
+    {
+      projectName: "Savackers",
       projectBio:
         "Custom Project created in laravel ",
       projectUrl: "https://www.savackers.com/",
-      stackList: ["HTML", "CSS", "JS", "PHP","LARAVEL"],
+      stackList: ["HTML", "CSS", "JS", "PHP", "LARAVEL"],
       image: savackers,
     },
     {
-      projectName: "Issue fixes in wordpress",
+      projectName: "Wordpress Plugin",
       projectBio:
-        "Issues fixed ",
+        "I have developed multiple custom WordPress plugins, enhancing functionality and optimizing user experiences for diverse business needs. From WooCommerce customizations to unique feature implementations, I specialize in creating scalable, secure, and high-performance plugins tailored to client requirements. My expertise spans API integrations, advanced settings panels, custom shortcodes, and database-driven functionalities, ensuring seamless integration with WordPress core and third-party services.",
       projectUrl: "#",
-      stackList: ["HTML", "CSS", "JS", "PHP","WORDPRESS"],
-      image: '',
+      stackList: ["HTML", "CSS", "JS", "PHP", "WORDPRESS", "PLUGIN CUSTOMIZATION", "MYSQL"],
+      image: plugin,
     },
     {
       projectName: "Ecoomerce Website in laravel",
       projectBio:
         "This Project has been based on ecommerce that created custom in laravel when work remotely in rolling cherry company",
       projectUrl: "https://www.shaykis.co.uk/",
-      stackList: ["HTML", "CSS", "JS", "PHP","LARAVEL","STRIPE","PAYMENT"],
+      stackList: ["HTML", "CSS", "JS", "PHP", "LARAVEL", "STRIPE", "PAYMENT"],
       image: shaykis,
     },
     {
@@ -325,9 +391,9 @@ const experienceSection = {
       experienceDesc:
         "A Full time Job work in different technology like wordpress customization, Laravel, Vuejs ,python and React ",
       experienceDuration: "April-2021 to Current",
-      experienceTags: ["PHP", "Javascript","Laravel","Wordpress","Woocommerce","NUXTjs","Vuejs", "Nextjs"],
+      experienceTags: ["PHP", "Javascript", "Laravel", "Wordpress", "Woocommerce", "NUXTjs", "Vuejs", "Nextjs"],
     },
-    
+
     // {
     //   experienceTitle: "Web Developer",
     //   experienceDesc:
@@ -340,7 +406,7 @@ const experienceSection = {
       experienceDesc:
         "Handle Backend Development Either Develop API for Mobile APP or Website in MS global inc",
       experienceDuration: "Dec-2020 to March-2021",
-      experienceTags: ["PHP", "3 Month", "CSS", "Javascript","Laravel"],
+      experienceTags: ["PHP", "3 Month", "CSS", "Javascript", "Laravel"],
     },
     {
       experienceTitle: "Web Developer",
@@ -365,10 +431,10 @@ const experienceSection = {
       experienceDuration: "August-2020",
       experienceTags: ["Interns.Pk", "1 month", "Remote"],
     },
-    
-    
-    
-    
+
+
+
+
   ],
 };
 
